@@ -1,0 +1,133 @@
+.ai-banner {
+    background-image: url("/apple/img/iphone16ProBanner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .ai-banner-2 {
+    background-image: url("/apple/img/iphone16Banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  @media (max-width: 987px){
+    .ai-banner{
+      background-image: url("/apple/img/iphone16ProBanner2.png");
+    }
+  
+    .ai-banner-2{
+      background-image: url("/apple/img/iphone16Banner2.png");
+    }
+  }
+  
+  .ipadAir-section {
+    background: rgb(173, 220, 238);
+    background: linear-gradient(180deg, rgba(173, 220, 238, 1) 0%, rgba(241, 245, 246, 1) 86%);
+  }
+  
+  .ipadAir-text {
+    font-family: 'Arial Rounded';
+    background: #126DCF;
+    background: linear-gradient(to right, #126DCF 0%, #4EA9FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .rainbow-gradient {
+    background: #3CC8FF;
+    background: linear-gradient(to right, #3CC8FF 0%, #F762FF 37%, #FFAD2A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .airPods2-section {
+    background-image: url("/apple/img/airPods2.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+  }
+  
+  .appleTradeIn-section {
+    background-image: url("/apple/img/appleTradeIn.png");
+    background-repeat: no-repeat;
+    background-position: center 230px;
+    background-size: 100%;
+  }
+  
+  @media (max-width: 523px){
+    .appleTradeIn-section{
+      background-size: contain;
+      background-position: center 250px;
+    }
+  }
+  
+  @media (min-width: 524px) and (max-width: 663px) {
+    .appleTradeIn-section {
+      background-size: contain;
+      background-position: center 230px;
+    }
+  }
+  @media (min-width: 664px) and (max-width: 863px) {
+    .appleTradeIn-section {
+      background-size: contain;
+      background-position: center 180px;
+    }
+  }
+  @media (min-width: 864px) and (max-width: 1023px) {
+    .appleTradeIn-section {
+      background-size: contain;
+      background-position: center 160px;
+    }
+  }
+  
+  
+  .leftSide-tv-section{
+      background-image: url("/apple/img/disclaimerApple.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+  }
+  
+  .rightSide-tv-section{
+    background-image: url("/apple/img/shrinkingApple.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  
+  .center-tv-section{
+    background-image: url("/apple/img/flyMeToTheMoonApple.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      max-height: 0;
+      opacity: 0;
+    }
+    100% {
+      max-height: 1000px;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .navbar-dropdown {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    animation: slideIn 0.5s ease-out forwards;
+  }
+  
+  .navbar-dropdown ul li {
+    opacity: 0;
+    animation: fadeIn 0.2s ease-out forwards;
+  }
+  
