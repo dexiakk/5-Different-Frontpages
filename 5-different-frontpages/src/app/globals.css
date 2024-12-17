@@ -16,6 +16,11 @@ body {
   src: url('/apple/fonts/arialroundedmtbold.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Gotham';
+  src: url('/spotify/fonts/Gotham-Medium.otf') format('truetype');
+}
+
 nextjs-portal {
   display: none;
 }

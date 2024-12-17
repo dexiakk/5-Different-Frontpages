@@ -15,6 +15,8 @@ export default {
 		md: '768px',
 		lg: '1024px',
 		xl: '1280px',
+		'2xl': '1380px',
+		'3xl': '1604px',
 	},
   	extend: {
   		fontFamily: {
@@ -25,7 +27,11 @@ export default {
   			arialRounded: [
   				'Arial Rounded',
   				'sans-serif'
-  			]
+  			],
+			  Gotham: [
+				'Gotham',
+				'sans-serif'
+			]
   		},
   		colors: {
   			background: 'hsl(var(--background))',

@@ -1,0 +1,68 @@
+.footer-gradient {
+    background: rgb(175, 41, 151);
+    background: linear-gradient(94deg, rgba(175, 41, 151, 1) 0%, rgba(133, 91, 192, 1) 45%, rgba(133, 91, 192, 1) 57%, rgba(80, 155, 245, 1) 100%);
+}
+
+.content-gradient {
+    background: rgb(34, 34, 34);
+    background: linear-gradient(185deg, rgba(34, 34, 34, 1) 0%, rgba(18, 18, 18, 1) 65%);
+}
+
+/* Global styl scrollbara */
+html, body {
+    scrollbar-width: thin;
+    scrollbar-color: #9a9a9a rgb(47, 46, 46);
+}
+
+/* Dla przeglądarek Webkit */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(47, 46, 46);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(47, 46, 46);
+}
+
+::-webkit-scrollbar-track {
+    background-color: #9a9a9a;
+    border-radius: 4px;
+}
+
+/* Scrollbar dla elementów z overflow-y-auto */
+.overflow-y-auto {
+    scrollbar-width: thin;
+    scrollbar-color: #9a9a9a rgb(47, 46, 46);
+}
+
+.overflow-y-auto::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb {
+    background-color: rgb(47, 46, 46);
+    border-radius: 4px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(47, 46, 46);
+}
+
+.overflow-y-auto::-webkit-scrollbar-track {
+    background-color: #9a9a9a;
+    border-radius: 4px;
+}
+
+.truncate-multiline {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+  }
