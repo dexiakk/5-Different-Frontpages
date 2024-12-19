@@ -1,0 +1,29 @@
+.leftHero {
+    position: absolute;
+    left: -35%;
+    transform: skewX(-10deg);
+    z-index: 2;
+}
+
+.leftHeroBackground {
+    position: absolute;
+    transform: skewX(10deg);
+    background-image: url("/paypal/img/heroBackground1.jpg");
+    margin-left: 15%;
+    background-size: cover;
+    background-position: center;
+}
+
+.rightHero {
+    position: absolute;
+    right: -20%;
+    z-index: 1;
+}
+
+.rightHeroBackground {
+    position: absolute;
+    background-image: url("/paypal/img/heroBackground2.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
