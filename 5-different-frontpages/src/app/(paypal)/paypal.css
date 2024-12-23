@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "PayPal Sans";
+    src: url("/paypal/fonts/d8040e905cf0216b6e1b4e39b28d519a.woff2") format("woff2"),
+     url("/paypal/fonts/d8040e905cf0216b6e1b4e39b28d519a.woff") format("woff"),
+     url("/paypal/fonts/d8040e905cf0216b6e1b4e39b28d519a.ttf") format("truetype");
+}
+
 .leftHero {
     position: absolute;
     left: -35%;
@@ -25,5 +32,10 @@
     background-image: url("/paypal/img/heroBackground2.jpg");
     background-size: cover;
     background-position: center;
+}
 
+.startUpHrGradient {
+    background: rgb(0, 153, 219);
+    background: radial-gradient(circle, rgba(0, 153, 219, 1) 0%, rgba(0, 70, 153, 1) 100%);
+    
 }

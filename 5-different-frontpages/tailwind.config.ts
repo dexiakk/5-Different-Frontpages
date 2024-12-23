@@ -31,6 +31,10 @@ export default {
 			  Gotham: [
 				'Gotham',
 				'sans-serif'
+			],
+			PaypalSans: [
+				'PayPal Sans',
+				'sans-serif'
 			]
   		},
   		colors: {
